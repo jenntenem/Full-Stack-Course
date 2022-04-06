@@ -1,8 +1,7 @@
 # Exercises 0.1.-0.6.
 
 ## 0.4: New note
-
-### Create a similar diagram depicting the situation where the user creates a new note on page https://studies.cs.helsinki.fi/exampleapp/notes when writing something into the text field and clicking the submit button.
+Create a similar diagram depicting the situation where the user creates a new note on page https://studies.cs.helsinki.fi/exampleapp/notes when writing something into the text field and clicking the submit button.
 
 ```
 title New note - Squence Diagram
@@ -36,7 +35,7 @@ end note over
 ![Browser Request and response](./0.4/browser_networking.png)
 
 ## 0.5: Single page app
-### Create a diagram depicting the situation where the user goes to the single page app version of the notes app at https://studies.cs.helsinki.fi/exampleapp/spa.
+Create a diagram depicting the situation where the user goes to the single page app version of the notes app at https://studies.cs.helsinki.fi/exampleapp/spa.
 
 ```
 title Single Page App (SPA) - Sequence Diagram
@@ -64,7 +63,7 @@ Server-->Browser:  favincon.ico
 
 
 ## 0.6: New note
-### Create a diagram depicting the situation where the user creates a new note using the single page version of the app.
+Create a diagram depicting the situation where the user creates a new note using the single page version of the app.
 ```
 title New note - Sequence Diagram (SPA)
 
