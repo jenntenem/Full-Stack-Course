@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
 
-export default function Total() {
+export default function Total({parts}) {
+  const total = parts.reduce((total, part) => total + part.exercises, 0);
+ 
   return (
-    <div>Total</div>
+    <div>
+      Total: {total} <br/>
+++
+    </div>
   )
 }
